@@ -2,16 +2,17 @@ Table1
 
 Attributes:
 cleaned = true
-can_seat_this_many = 4
+can_seat_this_many = 10
 seated = 3
 names_of_customers_at_table = ["Mike", "jake", "seth"]
+is_communal = true
 
 Methods:
+
 add_customer = names_of_customers_at_table = ["Mike", "jake", "seth", "richard"], seated = 4
 
-restaurant_capacity_left = 500-400  = 100
-
+table_capacity_left = is_communal == true, 10-3, returns 7
 
 will_seat = false
 
-clear_table = names_of_customers_at_table = [""], seated = 0
+clear_table = names_of_customers_at_table = [""], seated = 0, cleaned = false
