@@ -11,8 +11,8 @@ Methods:
 
 add_customer = names_of_customers_at_table = ["Mike", "jake", "seth", "richard"], seated = 4
 
-table_capacity_left = is_communal == true, 10-3, returns 7
+table_capacity_left = is_communal == true, 10-4, returns 6
 
-will_seat = false
+will_seat = 6 (if clean == true)
 
 clear_table = names_of_customers_at_table = [""], seated = 0, cleaned = false
