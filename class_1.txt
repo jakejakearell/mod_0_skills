@@ -13,6 +13,6 @@ add_customer = (would add name to array and add one to seated)
 table_capacity_left = (checks to see if it is a is communal table then subtracts
 seated from can_seat_this_many)
 
-will_seat = (checks if cleaned = true and then look for a table with enough seats for party)
+will_seat = (checks if cleaned = true and then returns the number of available seats at table )
 
 clear_table = (deletes names from array, sets seated to 0,  changes cleaned to false)
