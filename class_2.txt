@@ -5,7 +5,7 @@ Attributes:
 menu_items = (hash)
 menu_color = (string)
 are_specials? = (boolean)
-item_cost = float
+amount_ordered = (float)
 
 Methods:
 
@@ -13,3 +13,4 @@ change_color = re-assign string for menu_color
 remove_item = remove an item from the menu_items array
 check_deals = if are_specials? == true, menu_items[:"*name of item"] = new price
 add_item = adds an item to the menu hash
+order_total = menu_items[:"*name of menu item"] * amount_ordered, return total
