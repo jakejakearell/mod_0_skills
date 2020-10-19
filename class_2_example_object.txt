@@ -8,5 +8,5 @@ Methods:
 
 change_color = "green"
 remove_item = ["pizza":2.00, "soup":7.50]
-check_deals = true pizza == 1.50
+check_deals = are_specials == true, menu_items[:"pizza"] = 1.50
 add_item = {"soup":7.50, "fish":10.00, "pizza": 2.00, "duck":30.00}
